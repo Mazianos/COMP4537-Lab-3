@@ -1,4 +1,3 @@
-exports.getDate =
-function() {
-  return `Server current date and time is ${new Date()}`;
+exports.getDate = () => {
+  return `Server current date and time is ${Date()}`;
 }
